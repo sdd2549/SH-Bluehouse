@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 이미지를 불러옵니다.
-img = cv2.imread('./data/3333.tif')
+img = cv2.imread('./data/1111.png')
 
 # 이미지를 회색조로 변경합니다.
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
